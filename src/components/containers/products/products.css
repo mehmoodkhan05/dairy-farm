@@ -1,0 +1,11 @@
+.products-section {
+    padding-top: 100px;
+}
+
+.products-section .products_btn {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}

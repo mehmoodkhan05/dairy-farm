@@ -1,0 +1,15 @@
+.header-section {
+    margin-top: 55px;
+}
+
+.header-section .navbar-main {
+    background: var(--primary-color);
+}
+
+.header-section .nav-link {
+    color: var(--white-color);
+}
+
+.header-section .nav-link:hover {
+    color: var(--secondary-color);
+}
