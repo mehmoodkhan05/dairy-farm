@@ -1,0 +1,23 @@
+.footer-section {
+    margin-top: 100px;
+    background: var(--primary-color);
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-section .footer-logo .footer_logo {
+    width: 200px;
+    border-radius: 500%;
+}
+
+.footer-section .footer_links:hover {
+    color: var(--secondary-color);
+}
+
+.footer-section .footer_bottom-span {
+    margin: 50px 0 5px 0;
+    opacity: 0.8;
+    background: radial-gradient(50% 60% at 50% 55%, #f3d79b 0%, rgba(182, 200, 211, 0) 85%);
+}

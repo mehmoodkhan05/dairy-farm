@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
 
         <Container>
-          <div className="typed-text-container text-center">
+          <div className="typed-text-container text-center section-heading">
             <TypeAnimation
               className="hero_type-animation"
               sequence={[

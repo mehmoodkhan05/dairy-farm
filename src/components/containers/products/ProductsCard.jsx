@@ -22,7 +22,7 @@ const ProductsCard = () => {
                   className="card-icon rd-50 w-50"
                 />
                 <Card.Body>
-                  <Card.Title>{product.title}</Card.Title>
+                  <Card.Title className="fw-bold">{product.title}</Card.Title>
                   <Card.Text>{product.description}</Card.Text>
                 </Card.Body>
               </Card>
