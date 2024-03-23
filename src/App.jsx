@@ -8,7 +8,7 @@ import {
   Outlet,
 } from "react-router-dom";
 import { Header, Footer } from "./components/index";
-import {Form, Products} from "./pages/index"
+import {OrderForm, Products} from "./pages/index"
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           <Route path="/" element={<Layout />} exact>
             <Route index element={<Main />} />
             <Route path="/products" element={<Products />} />
-            <Route path="/orderForm" element={<Form />} />
+            <Route path="/orderForm" element={<OrderForm />} />
           </Route>
         </Routes>
       </Router>

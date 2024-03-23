@@ -25,7 +25,7 @@ const ShopCard = () => {
                 <Card.Body>
                   <Card.Title className="">{shop.title}</Card.Title>
                   <Card.Text className="fw-bold fs-24 mt-lg-3">{shop.description}</Card.Text>
-                  <Nav.Link href="" className="btn btn-w-180 m-auto mt-lg-5 text-uppercase">{shop.btn}</Nav.Link>
+                  <Nav.Link href="/orderForm" className="btn btn-w-180 m-auto mt-lg-5 text-uppercase">{shop.btn}</Nav.Link>
                 </Card.Body>
               </Card>
             </Col>

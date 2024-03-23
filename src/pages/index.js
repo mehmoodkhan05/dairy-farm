@@ -1,7 +1,7 @@
 import Products from "./products/Products";
-import Form from "./form/Form"
+import OrderForm from "./form/OrderForm"
 
 export {
     Products,
-    Form
+    OrderForm
 }
