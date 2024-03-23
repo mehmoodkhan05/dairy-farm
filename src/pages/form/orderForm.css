@@ -1,0 +1,16 @@
+.form-page {
+    padding-top: 100px;
+}
+
+.form-page .order_form {
+    margin-top: 96px;
+}
+
+.form-page .order_form .form-control {
+    border: 1px solid var(--primary-color);
+}
+
+.form-page .order_form .form-control:focus {
+    box-shadow: none;
+    border: 1px solid var(--secondary-color);
+}
