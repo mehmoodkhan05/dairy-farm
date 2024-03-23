@@ -30,7 +30,7 @@ const ProductsCard = () => {
           );
         })}
         <div className="products_btn text-center">
-          <Nav.Link className="btn btn-w-228">
+          <Nav.Link href="/products" className="btn btn-w-228">
             view all products
           </Nav.Link>
         </div>
