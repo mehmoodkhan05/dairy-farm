@@ -39,6 +39,10 @@
         height: 760px;
     }
 
+    .hero-section img {
+        margin-top: -7px;
+    }
+
     .hero-section .hero_type-animation {
         font-size: 65px;
     }

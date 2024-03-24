@@ -101,7 +101,7 @@ const OrderForm = () => {
             <h3 className="primary fs-48 text-center">Please fill the form</h3>
           </div>
           <Row>
-            <Col lg={6}>
+            <Col md={6} className="order-2 order-md-1">
               <div className="d-flex justify-content-center mt-lg-5">
                 <img
                   src="/src/assets/images/products/product-1.jpg"
@@ -129,7 +129,7 @@ const OrderForm = () => {
               </table>
             </Col>
 
-            <Col lg={6}>
+            <Col md={6} className="order-1 order-md-2">
               <form action="" ref={form} className="order_form">
                 <FloatingLabel
                   controlId="floatingInput"
@@ -216,7 +216,7 @@ const OrderForm = () => {
                   />
                 </FloatingLabel>
               </form>
-              <div className="order_form-btn d-flex justify-content-center mt-lg-5">
+              <div className="order_form-btn d-flex justify-content-center mt-5">
                 <Nav.Link
                   href="#"
                   className="btn btn-w-180 text-uppercase"

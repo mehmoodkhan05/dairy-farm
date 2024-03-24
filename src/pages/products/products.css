@@ -7,3 +7,15 @@
     border-radius: 25px;
     padding: 20px 0px;
 }
+
+@media screen and (width <=575px) {
+    .products_page-section .card {
+        width: 300px;
+    }
+
+    .products_page-section .shop_main-col {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+}

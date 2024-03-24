@@ -14,3 +14,15 @@
     box-shadow: none;
     border: 1px solid var(--secondary-color);
 }
+
+@media screen and (width <=433px) {
+    .fs-48 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (width <=365px) {
+    .fs-48 {
+        font-size: 33px;
+    }
+}

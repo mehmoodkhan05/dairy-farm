@@ -5,11 +5,11 @@ import shops from "../../data/shops"
 const ProductsCard = () => {
   return (
     <>
-        <Row>
+        <Row className="justify-content-md-center">
         {shops.map((shop) => {
           return (
-            <Col lg={4} key={shop.id} className="">
-              <Card className="card-item text-center align-items-center mt-lg-5">
+            <Col lg={4} sm={6} key={shop.id} className="shop_main-col">
+              <Card className="card-item text-center align-items-center mt-5">
                 <Card.Img
                   variant="top"
                   src={shop.icon}
