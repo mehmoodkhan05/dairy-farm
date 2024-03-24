@@ -172,3 +172,30 @@ body {
 .fs-96 {
   font-size: 96px;
 }
+
+@media screen and (width <=991px) {
+  .section-heading {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+  }
+}
+
+@media screen and (width <=425px) {
+  .btn-w-228 {
+    width: 200px;
+    padding: 12px;
+  }
+
+  .btn:hover {
+    letter-spacing: 0px;
+  }
+}
+
+@media screen and (width <=375px) {
+  .section-heading {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+  }
+}

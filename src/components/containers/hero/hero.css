@@ -33,3 +33,20 @@
     z-index: -1;
     color: var(--white-color);
 }
+
+@media screen and (width <=991px) {
+    .hero-section {
+        height: 760px;
+    }
+
+    .hero-section .hero_type-animation {
+        font-size: 65px;
+    }
+}
+
+@media screen and (width <=425px) {
+
+    .hero-section .hero_type-animation {
+        font-size: 50px;
+    }
+}

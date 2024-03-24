@@ -13,3 +13,13 @@
 .header-section .nav-link:hover {
     color: var(--secondary-color);
 }
+
+.header-section .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+@media screen and (width <=991px) {
+    .header-section {
+        
+    }
+}

@@ -21,3 +21,10 @@
     opacity: 0.8;
     background: radial-gradient(50% 60% at 50% 55%, #f3d79b 0%, rgba(182, 200, 211, 0) 85%);
 }
+
+@media screen and (width <=425px) {
+    .footer-section .footer_bottom-span {
+        background: none;
+        color: var(--white-color);
+    }
+}

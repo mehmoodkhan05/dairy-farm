@@ -7,3 +7,9 @@
     border-radius: 25px;
     padding: 20px 0px;
 }
+
+@media screen and (width <=767px) {
+    .shop-section .card {
+        width: 300px;
+    }
+}

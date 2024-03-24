@@ -11,11 +11,11 @@ const ProductsCard = () => {
   );
   return (
     <>
-      <Row>
+      <Row className="justify-content-sm-center">
         {specificproducts.map((product) => {
           return (
-            <Col lg={4} key={product.id}>
-              <Card className="card-item text-center border-0 align-items-center mt-lg-5">
+            <Col lg={4} sm={6} key={product.id}>
+              <Card className="card-item text-center border-0 align-items-center mt-5">
                 <Card.Img
                   variant="top"
                   src={product.icon}

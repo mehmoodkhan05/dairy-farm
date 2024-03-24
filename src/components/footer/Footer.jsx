@@ -10,7 +10,7 @@ const Footer = () => {
       <section className="footer-section">
         <Container className="">
           <Row className="">
-            <Col lg={4} className="d-flex align-items-center">
+            <Col lg={4} md={6} className="d-lg-flex align-items-lg-center">
               <div className="footer-logo">
                 <Link to="">
                   <img src={config.logo} alt="" className="footer_logo" />
@@ -18,7 +18,7 @@ const Footer = () => {
               </div>
             </Col>
 
-            <Col lg={4} className="lh-50">
+            <Col lg={4} md={6} className="lh-50 mt-md-0 mt-4">
               <h4 className="white">In the Kitchen</h4>
               <div>
                 <Link to="#" className="text-decoration-none footer_links">
@@ -45,7 +45,7 @@ const Footer = () => {
               </div>
             </Col>
 
-            <Col lg={4} className="lh-50">
+            <Col lg={4} className="lh-50 mt-lg-0 mt-4">
               <h4 className="white">About Us</h4>
               <div>
                 <Link to="#" className="text-decoration-none footer_links">
